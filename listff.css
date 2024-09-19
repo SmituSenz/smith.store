@@ -1,0 +1,133 @@
+:root
+{
+    --yellow : #fff000;
+    --dark-green : #006400;
+    --green : #008000;
+    --white : #fff;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: 'Tahoma';
+}
+
+body
+{
+  background-color: var(--dark-green);
+  color: var(--white);
+}
+
+header
+{
+  text-align: center;
+  background-color: var(--green);
+  position: fixed;
+  width: 100%;
+  font-weight: bold;
+  padding: 3%;
+  top: 0;
+}
+
+.title
+{
+  color: var(--yellow);
+  border-bottom: 1px solid var(--white);
+  font-size: 18pt;
+}
+
+.title-p
+{
+  margin-left: 60px;
+  margin-top: 5%;
+}
+
+.link img
+{
+  margin-top: 5%;
+}
+
+.deskripsi
+{
+    display: grid;
+    font-size: 10pt;
+}
+
+.cara
+{
+    display: grid;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 15pt;
+}
+
+.card
+{
+    background-color: var(--green);
+    padding: 5%;
+    border-radius: 8px;
+    box-shadow: 10px 10px var(--yellow);
+}
+
+.card img
+{
+  width: 100%;
+}
+
+.tentang
+{
+    background-color: var(--green);
+    padding: 5%;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+    margin-top: 10%;
+}
+
+.judul-produk
+{
+  font-size: 15pt;
+  color: var(--white);
+  margin-left: 5px;
+}
+
+.judul-produk:hover
+{
+  color: var(--yellow);
+}
+
+.title-p
+{
+  margin-left: 30px;
+  margin-top: 5%;
+  color: var(--white);
+}
+
+.populer
+{
+  display: grid;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+ .populer img
+{
+  border-radius: 15px;
+  width: 80%;
+}
+
+.link a
+{
+  color: var(--white);
+}
+
+.link a:hover
+{
+  color: var(--yellow);
+}
+
+@media screen and (max-width: 600px) {
